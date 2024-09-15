@@ -1,4 +1,4 @@
-<h1>IMPORTANT: This Project Is Undergoing Revision</h1>
+<h1>IMPORTANT: THIS PROJECT IS CURRENTLY UNDERGOING REVISION</h1>
 
 <h1>Personal Portfolio Website</h1>
 
