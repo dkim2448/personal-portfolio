@@ -21,9 +21,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 10%;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
 }
 
@@ -33,16 +33,19 @@ body {
 }
 
 #header div {
-    margin-left: 2vw;
+    margin-left: 20%;
     font-weight: bold;
     letter-spacing: 0.05rem;
 }
 
+#navbar {
+    margin-right: 20%;
+    width: 15%;
+}
+
 #navbar ul {
-    margin-right: 2vw;
     display: flex;
     justify-content: space-between;
-    width: 12vw;
 }
 
 #navbar a {
@@ -60,7 +63,7 @@ body {
 /* MAIN BODY */
 
 main {
-    margin-top: 7vh;
+    margin-top: 5%;
 }
 
 /* WELCOME SECTION */
@@ -115,7 +118,7 @@ main {
 
 /* PROJECT SECTION */
 
-#projects {
+/* #projects {
     height: auto;
     padding-top: 8vh;
 }
@@ -201,7 +204,7 @@ main {
 
 #showall:hover {
     transform: scale(1.1, 1.1);
-}
+} */
 
 /* CONTACT SECTION */
 
