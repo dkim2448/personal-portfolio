@@ -1,88 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daniel Kim | Responsive Web Design Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/6fbdd9269e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Kim | Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header id="header">
-    <div>
-        <a href="#welcome-section" id="kimd6"><p>kimd6</p></a>
-    </div>
-    <nav id="navbar">
-      <ul>
-        <a href="#welcome-section"><li>About</li></a>
-        <a href="#projects"><li>Resume</li></a>
-        <a href="#contact"><li>Contact</li></a>
-      </ul>
+    <!-- NAV BAR -->
+    <nav>
+        <div class="name">
+            <p>daniel kim</p>
+        </div>
+        <div class="links">
+            <a href="index.html" class="active">experience</a>
+            <a href="about.html">about</a>
+            <a href="mailto:kimdaniel2448@gmail.com">contact</a>
+            <a href="assets/Daniel_Kim_Technical_Resume.pdf" target="_blank">resume <i class="ri-profile-line"></i></a>
+        </div>
     </nav>
-  </header>
 
-  <main>
-    <section id="welcome-section">
-        <div id="intro">
-          <p>(Under Revision)</p>
-          <h1>Hey I am Daniel</h1>
-          <p>a computer science student</p>
-        </div>
-        <div id="langsection">
-            <div id="languages">
-                <p>Languages</p>
-                <p>|</p>
-            </div>
-            <div id="langlist">
-                <a href="https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png"></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-programming/512/css-512.png"></a>
-                <a href="https://www.python.org/" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png"></a>
-                <a href="https://cplusplus.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"></a>
-            </div>
-        </div>
-    </section>
-    <section id="projects">
-    </section>
-    <section id="contact">
-      <p id="largecontact">Let's work together.</p>
-      <p id="medcontact">Hit me up! 👇</p>
+    <div class="experience">
+        <div class="work">
+            <h5>work</h5>
 
-      <div class="icons">
-        <a href="https://github.com/dkim2448/personal-portfolio">
-          <i class="fa-brands fa-github"></i>
-          Github
-        </a>
-        <a href="https://discord.com/">
-          <i class="fa-brands fa-discord"></i>
-          Discord
-        </a>
-        <a href="www.linkedin.com/in/daniel2448kim">
-          <i class="fa-brands fa-linkedin"></i>
-          LinkedIn
-        </a>
-        <a href="mailto:daniel.k.kim@ucdenver.edu">
-          <i class="fa-solid fa-envelope"></i>
-          Email
-        </a>
-      </div>
-    </section>
-    <footer>
-      <div class="footertext">
-        <p>Copyright © 2024. All rights are reserved</p>
-      </div>
-      <div class="footericons">
-        <a id="profile-link" target="_blank" href="https://www.linkedin.com/school/">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a id="profile-link" target="_blank" href="https://www.linkedin.com/school/">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      </div>
-    </footer>
-  </main>
+            <div class="item">
+                <div class="left">
+                    <p>TRIO SSS STEM student assistant at <a href="https://www.ucdenver.edu/trio/student-support-services" target="_blank" class="underline">University of Colorado Denver</a></p>
+                    <p class="date">december 2024 - present</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                    <p>freelance frontend developer</p>
+                    <p class="date">july 2024 - present</p>
+                </div>
+                <div class="right">
+                    <p><a href="https://michaelphanpersonalportfolio.vercel.app/" target="_blank">showcase 1</a></p>
+                    <p><a href="https://github.com/dkim2448" target="_blank">showcase 2</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h5>projects</h5>
+
+            <div class="item">
+                <div class="left">
+                    <p>mymangalist</p>
+                    <p class="date">react, mongodb, html/css, javascript</p>
+                </div>
+                <div class="right">
+                    <p><a href="https://github.com/dkim2448" target="_blank">live</a></p>
+                    <p><a href="https://github.com/dkim2448" target="_blank">github</a></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                    <p>input/tab manager chrome extension</p>
+                    <p class="date">html, javascript, css</p>
+                </div>
+                <div class="right">
+                    <p><a href="https://github.com/dkim2448/bookmark-manager" target="_blank">github</a></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="left">
+                    <p>library management system</p>
+                    <p class="date">c++</p>
+                </div>
+                <div class="right">
+                    <a href="https://github.com/dkim2448/librarysystem" target="_blank">github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="community">
+            <h5>community involvement</h5>
+
+            <div class="item">
+                <div class="left">
+                    <p>S-STEM engineering learning community mentor at 
+                        <a href="https://engineering.ucdenver.edu/current-students/scholarships/s-stem-scholarships" target="_blank" class="underline">University of Colorado Denver</a>
+                    </p>
+                    <p class="date">fall 2023 - spring 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/daniel2448kim/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://github.com/dkim2448" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="mailto:kimdaniel2448@gmail.com" target="_blank"><i class="ri-mail-fill"></i></a>
+    </div>
 </body>
 </html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Radio Canada';
+}
+
+body {
+    background-color: #121212;
+    color: #fbfbfb;
+    width: 680px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    color: #00ffff;
+}
+
+.underline,
+.experience .item a:hover  {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+/* SOCIAL LINKS */
+
+.social-links {
+    margin-bottom: 100px;
+}
+
+.social-links a i {
+    display: inline-block;
+    font-size: 30px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a i:hover {
+    transform: translateY(-20%);
+    color: #00ffff;
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+nav .name {
+    font-size: 18px;
+}
+
+nav .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+}
+
+nav .links a {
+    transition: all 0.3s ease;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-color: #00ffff;
+    text-decoration-thickness: 2px;
+}
+
+/* EXPERIENCE SECTION */
+
+.experience,
+.about {
+    margin-top: 50px;
+}
+
+.experience h5,
+.about h5 {
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+.experience .item {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience .item p {
+    margin-bottom: 5px;
+}
+
+.experience .item .date {
+    color: #d3d3d3;
+}
+
+.experience .item .right {
+    display: flex;
+    gap: 10px;
+}
+
+.experience .work .item .right {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.work,
+.projects {
+    margin-bottom: 50px;
+}
+
+/* ABOUT SECTION */
+
+.about p {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.about span {
+    font-weight: 900;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        /* border: 3px solid orange; */
+        width: auto;
+        padding: 80px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    .experience, .about {
+        font-size: 14px;
+    }
+
+    .experience h5, .about h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    body {
+        /* border: 3px solid red; */
+        width: auto;
+        padding: 40px;
+    }
+
+    nav {
+        font-size: 12px;
+    }
+
+    .experience, .about {
+        font-size: 12px;
+    }
+
+    .experience h5, .about h5 {
+        font-size: 14px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .social-links a i {
+        font-size: 20px;
+    }
+}
