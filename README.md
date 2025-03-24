@@ -1,5 +1,3 @@
-<h1>CURRENTLY UNDER REVISION</h1>
-
 <h1>Personal Portfolio Website</h1>
 
 <p>Link to website: https://personal-portfolio-beta-jade.vercel.app/</p>
