@@ -4,9 +4,9 @@ View website here: [https://personal-portfolio-beta-jade.vercel.app/](https://pe
 
 ## Overview
 
-This personal portfolio website serves as a digital space to represent who I am, what I’ve worked on, and how to get in touch with me. It was thoughtfully designed and built using core web technologies—JavaScript, HTML, and CSS—to reflect a clean and minimalistic aesthetic while ensuring ease of use and accessibility.
+This personal portfolio website serves as a digital space to showcase what I’ve worked on and how to get in touch with me. It was designed and built using core web technologies—JavaScript, HTML, and CSS—to reflect a clean and minimalistic aesthetic while ensuring ease of use and accessibility.
 
-The primary goal of this website is to provide a clear and visually appealing way to showcase my projects, communicate my skills and interests, and allow visitors to reach out. Whether viewed on a desktop, tablet, or mobile device, the site maintains a consistent and responsive design, making it easy to navigate and explore.
+The primary goal of this website is to provide a clear and visually appealing way to showcase projects, communicate my skills and interests, and allow visitors to reach out. Whether viewed on a desktop, tablet, or mobile device, the site maintains a consistent and responsive design, making it easy to navigate and explore.
 
 ## Features
 
