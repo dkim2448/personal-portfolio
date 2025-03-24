@@ -1,6 +1,6 @@
 # personal portfolio website
 
-[view website here:](https://personal-portfolio-beta-jade.vercel.app/)
+[link to website](https://personal-portfolio-beta-jade.vercel.app/)
 
 ## overview
 
