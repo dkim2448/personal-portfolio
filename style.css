@@ -173,8 +173,13 @@ nav .links a:hover {
         font-size: 12px;
     }
 
+    .experience .item {
+        margin-bottom: 10px;
+    }
+
     .experience h5, .about h5 {
         font-size: 14px;
+        margin-bottom: 20px;
     }
 
     .about p {
