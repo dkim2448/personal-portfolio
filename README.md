@@ -49,8 +49,4 @@ Visitors to the site can:
 - **Get in Touch**  
   The contact section includes a simple form that allows visitors to send a message directly. It’s a straightforward way for collaborators, potential employers, or peers to reach out.
 
-## Future Improvements (Optional)
-
-This site is a continuous work in progress. I plan to add new projects, improve animations, and explore integrating more advanced features such as a blog section, dark mode toggle, and possibly transitioning to a modern front-end framework like React for future scalability.
-
 
