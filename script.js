@@ -102,7 +102,7 @@ window.addEventListener('load', function() {
         numPetals: 24,
         maxVel: 2.5,
         minVel: 1,
-        color: "rgba(255, 255, 255, 1)" // Fully opaque white petals
+        color: "rgba(255, 255, 255, 0.7)" // Fully opaque white petals
     });
     
     // Resize handler to only adjust canvas size, not reinitialize
