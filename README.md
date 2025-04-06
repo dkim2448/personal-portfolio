@@ -19,9 +19,6 @@ the primary goal of this website is to provide a clear and visually appealing wa
 - **clear and intuitive navigation**  
   a simple navigation bar at the top allows users to quickly access major sections of the site, including “work,” “about,” and “contact.” this makes it easy for visitors to find what they're looking for without unnecessary clicks.
 
-- **dynamic project showcase**  
-  one of the core elements of the website is a dedicated section that highlights my projects. each project tile includes interactive elements and links to more detailed information, helping users understand the purpose, technologies, and outcomes of each project.
-
 - **interactive user experience**  
   subtle animations and hover effects are incorporated throughout the site to create a more engaging experience. these interactions enhance usability while keeping the interface smooth and responsive.
 
@@ -41,10 +38,7 @@ the primary goal of this website is to provide a clear and visually appealing wa
 visitors to the site can:
 
 - **navigate between sections**  
-  use the menu at the top of the page to seamlessly move between the homepage, project showcase, about section, and contact form.
-
-- **explore projects in detail**  
-  browse through the projects section to see highlights of work i’ve done. clickable tiles offer additional information about each project, including descriptions and tech stacks.
+  use the menu at the top of the page to seamlessly move between the homepage, about section, and contact form.
 
 - **get in touch**  
   the contact section includes a simple form that allows visitors to send a message directly. it’s a straightforward way for collaborators, potential employers, or peers to reach out.
