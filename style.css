@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
 
+/* Canvas for petal animation */
+#petalsCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind all other content */
+    pointer-events: none; /* Allow clicks to pass through to elements below */
+}
+
 @media (prefers-reduced-motion: no-preference) {
     * {
       scroll-behavior: smooth;
