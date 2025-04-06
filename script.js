@@ -3,7 +3,7 @@
     'use strict';
     var PetalJs, Petal, _randomGenerator,
         _defaultOptions = {
-            numPetals: 30,
+            numPetals: 24,
             maxVel: 2,
             minVel: 1,
             color: "rgba(255, 183, 197, .8)"
@@ -99,7 +99,7 @@ window.addEventListener('load', function() {
     
     // Initialize the PetalJs with custom options
     petalAnimation = new PetalJs("petalsCanvas", {
-        numPetals: 30,
+        numPetals: 24,
         maxVel: 2.5,
         minVel: 1,
         color: "rgba(255, 255, 255, 1)" // Fully opaque white petals
