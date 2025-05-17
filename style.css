@@ -1,19 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
 
-/* Canvas for petal animation */
-#petalsCanvas {
+/* SNOW EFFECT */
+.snow-container {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Place it behind all other content */
-    pointer-events: none; /* Allow clicks to pass through to elements below */
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* This puts it behind your content */
+    pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    * {
-      scroll-behavior: smooth;
+.snowflake {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+@keyframes fall {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes diagonal-fall {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.25;
+        transform: translate(10vw, 100vh);
     }
 }
 
