@@ -1,6 +1,6 @@
 # personal portfolio website
 
-[link to website](https://daniel-kim-port.vercel.app/)
+[link to website](https://kim4.vercel.app/)
 
 ## overview
 
